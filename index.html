@@ -34,14 +34,35 @@
       left: 0;
     }
 
-    .atas {
-      position: relative;
-      bottom: 550px;
-      color: #fff;
+    @media screen and (min-width: 800px) {
+      .atas {
+        position: relative;
+        bottom: 550px;
+        color: #fff;
+      }
+
+      .text {
+        text-shadow: 4px 4px #000;
+      }
+    }
+    
+    @media screen and (min-width: 550px) {
+      .atas {
+        position: relative;
+        bottom: 550px;
+        color: #fff;
+      }
+      
+      .text {
+        text-shadow: 4px 4px #000;
+      }
     }
 
-    .text {
-      text-shadow: 4px 4px #000;
+    @media screen and (min-width: 450px) {
+      .atas {
+        position: relative;
+        color: #fff;
+      }
     }
 
   </style>
@@ -105,7 +126,7 @@
   
     <div class="container">
       <div class="row justify-content-md-center">
-        <div class="col-lg-9">
+        <div class="col-lg-9 col-sm-12">
           <div class="atas text-center text">
             <!-- <h1>PT. DIVA SINERGI ADIPRADANA</h1>
             <h2>Percepat Identifikasi Data Pengguna dengan Platform Verifikasi Terintegrasi.</h2> -->
@@ -132,45 +153,57 @@
 
   <main id="main">
 
-    <section id="headings" class="services">
+    <section id="headings">
       <div class="container">
         <div class="text-center">
           <h2><strong>Tingkatkan Ekosistem Digital Anda Bersama DIVA Sinergi.</strong></h2>
         </div>
 
-        <div class="row mt-4">
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="card mb-3 bg-light" style="max-width: 18rem;">
-              <div class="card-header">Keamanan yang lebih tinggi</div>
+        <div class="row mt-4 justify-content-center">
+          <div class="col-lg-3 col-md-6">
+            <div class="card mb-3 bg-light">
+              <div class="card-header">
+                <i class='bx bxs-shield-plus'></i>
+                Keamanan yang lebih tinggi
+              </div>
               <div class="card-body">
-                <p class="card-text">Tingkat keamanan biometrik berstandar tinggi untuk bisnis Anda.</p>
+                <p class="card-text">Tingkat keamanan biometrik berstandar tinggi untuk bisnis Anda. <br><br><br><br></p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="card mb-3 bg-light" style="max-width: 18rem;">
-              <div class="card-header">Effisiensi</div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card mb-3 bg-light">
+              <div class="card-header">
+                <i class='bx bxs-objects-horizontal-left'></i>
+                Effisiensi
+              </div>
               <div class="card-body">
-                <p class="card-text">Dengan menggunakan teknologi biometrik dari Diva Sinergi, proses identifikasi dan verifikasi menjadi lebih cepat dan efisien.</p>
+                <p class="card-text">Dengan menggunakan teknologi biometrik dari Diva Sinergi, proses identifikasi dan verifikasi menjadi lebih cepat dan efisien. <br><br></p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="card mb-3 bg-light" style="max-width: 18rem;">
-              <div class="card-header">Kemudahan Penggunaan</div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card mb-3 bg-light">
+              <div class="card-header">
+                <i class='bx bx-universal-access'></i>
+                Kemudahan Penggunaan
+              </div>
               <div class="card-body">
-                <p class="card-text">Dengan menggunakan teknologi dari Diva Sinergi, proses identifikasi dan verifikasi menjadi lebih mudah digunakan.</p>
+                <p class="card-text">Dengan menggunakan teknologi dari Diva Sinergi, proses identifikasi dan verifikasi menjadi lebih mudah digunakan. <br> <br></p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="card mb-3 bg-light" style="max-width: 18rem;">
-              <div class="card-header">Penanganan Data yang Lebih Aman</div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card mb-3 bg-light">
+              <div class="card-header">
+                <i class='bx bxs-data'></i>
+                Penanganan Data yang Lebih Aman
+              </div>
               <div class="card-body">
-                <p class="card-text">Teknologi biometrik dari Diva Sinergi dapat membantu meningkatkan sistem keamanan data perusahaan Anda.</p>
+                <p class="card-text">Teknologi biometrik dari Diva Sinergi dapat membantu meningkatkan sistem keamanan data perusahaan Anda.<br></p>
               </div>
             </div>
           </div>
@@ -193,35 +226,37 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
-              <div class="icon"><i class='bx bx-code-alt'></i></div>
+              <!-- <div class="icon">
+                <i class='bx bx-code-alt'></i>
+              </div> -->
               <h4>IT SOLUTIONS</h4>
-              <p>Solusi pemaksimalan pembuatan aplikasi, situs web, e-commerce, face recognition & liveness detection software, pengelolaan data, dan kebutuhan TIK lainnya secara cepat dan akurat.</p>
+              <p>Solusi pemaksimalan pembuatan aplikasi, situs web, e-commerce, face recognition & liveness detection software, pengelolaan data, dan kebutuhan TIK lainnya secara cepat dan akurat. <br> <br> <br></p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-boxs">
-              <div class="icon"><i class='bx bxs-car-garage'></i></div>
+              <!-- <div class="icon"><i class='bx bxs-car-garage'></i></div> -->
               <h4>PARKING SYSTEM</h4>
-              <p>Solusi atas kebutuhan bisnis perparkiran yang dituntut menghadirkan layanan yang aman, terintegrasi, efisien dan efektif untuk kemudahan pelanggan.</p>
+              <p>Solusi atas kebutuhan bisnis perparkiran yang dituntut menghadirkan layanan yang aman, terintegrasi, efisien dan efektif untuk kemudahan pelanggan. <br> <br> <br> <br></p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-boxss">
-              <div class="icon"><i class='bx bxs-notepad'></i></div>
+              <!-- <div class="icon"><i class='bx bxs-notepad'></i></div> -->
               <h4>WRAPPING BAGGAGE SYSTEM</h4>
               <p>
-                Solusi kebandarudaraan yang profesional berupa penyediaan operator dan aplikasi Wrapping Baggage System.
+                Solusi kebandarudaraan yang profesional berupa penyediaan operator dan aplikasi Wrapping Baggage System. <br> <br> <br> 
               </p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-boxsss">
-              <div class="icon"><i class='bx bxs-objects-horizontal-left'></i></div>
+              <!-- <div class="icon"><i class='bx bxs-objects-horizontal-left'></i></div> -->
               <h4>OTOMASI PELABUHAN</h4>
-              <p>Solusi Automatic Vehicle Classification, Automatic Ticketing System pada layanan bisnis pelabuhan, hingga manajemen manifest dari kami untuk layanan yang lebih cepat dan terintegrasi.
+              <p>Solusi Automatic Vehicle Classification, Automatic Ticketing System pada layanan bisnis pelabuhan, hingga manajemen manifest dari kami untuk layanan yang lebih cepat dan terintegrasi. <br>
               </p>
             </div>
           </div>
@@ -276,7 +311,7 @@
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
       <div class="container">
-        <h1 class="text-center">Client Kami</h1>
+        <h1 class="text-center">Klient Kami</h1>
         <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
 
           <div class="col-lg-3 col-md-4 col-xs-6">
@@ -391,17 +426,12 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" class="btn btn-success mt-3">Send Message</button></div>
             </form>
 
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 mt-3">
             <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7024066196213!2d106.81623487459879!3d-6.170587393816743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d6113abb67%3A0x2949d5465653dd19!2sJl.%20Tanah%20Abang%20I%20No.11F%2C%20RT.11%2FRW.8%2C%20Petojo%20Sel.%2C%20Kecamatan%20Gambir%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2010160!5e0!3m2!1sid!2sid!4v1694706136157!5m2!1sid!2sid" frameborder="0" allowfullscreen></iframe>
           </div>
 
@@ -456,7 +486,7 @@
           <h5>
             SUPPORTED BY
           </h5>
-          <img class="img-fluid w-25" src="./assets/img/bio.png">
+          <img class="img-fluid w-50" src="./assets/img/bio.png">
         </div>
       </div>
     </div>

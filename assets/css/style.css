@@ -677,8 +677,11 @@ section {
 .services .icon-box {
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
-  background: #fefefe;
+  margin: auto;
+  /* background: #fefefe; */
+  background-image: url('../img/it.png');
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  color: #fff;
   border-radius: 18px;
   border-bottom: 5px solid #fff;
 }
@@ -720,7 +723,10 @@ section {
 .services .icon-boxs {
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
-  background: #fefefe;
+  /* background: #fefefe; */
+  background-image: url('../img/parking.png');
+  margin: auto;
+  color: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
   border-radius: 18px;
   border-bottom: 5px solid #fff;
@@ -762,10 +768,13 @@ section {
 .services .icon-boxss {
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
-  background: #fefefe;
+  /* background: #fefefe; */
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  background-image: url('../img/wrapping.png');
+  margin: auto;
   border-radius: 18px;
   border-bottom: 5px solid #fff;
+  color: #fff;
 }
 
 .services .icon-boxss .icon {
@@ -805,10 +814,14 @@ section {
 .services .icon-boxsss {
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
-  background: #fefefe;
+  /* background: #fefefe; */
+  margin: auto;
+  background-image: url('../img/pelabuhan.png');
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
   border-radius: 18px;
   border-bottom: 5px solid #fff;
+  color: #fff;
+  text-shadow: 1px 5px 5px #000;
 }
 
 .services .icon-boxsss .icon {
@@ -848,42 +861,43 @@ section {
 .services .icon-box:hover {
   transform: translateY(-10px);
   /* border-color: #009961; */
-  /* background-color: #009961; */
-  background-image: url('../img/programming-image.jpeg');
+  background: #fff;
+  /* background-image: url('../img/programming-image.jpeg'); */
   /* opacity: 0.2; */
-  text-shadow: 2px 2px #000;
+  text-shadow: 2px 2px #fff;
   font-weight: bold;
-  color: #fff;
+  color: #000;
 }
 .services .icon-boxs:hover {
   transform: translateY(-10px);
   /* border-color: #009961; */
-  /* background-color: #009961; */
-  background-image: url('../img/parking-services.jpeg');
+  background: #fff;
+  /* background-image: url('../img/parking-services.jpeg'); */
   /* opacity: 0.2; */
-  text-shadow: 2px 2px #000;
+  text-shadow: 2px 2px #fff;
   font-weight: bold;
-  color: #fff;
+  color: #000;
 }
 .services .icon-boxss:hover {
   transform: translateY(-10px);
   /* border-color: #009961; */
-  /* background-color: #009961; */
-  background-image: url('../img/Wrapping-System.webp');
+  background: #fff;
+  /* background-image: url('../img/Wrapping-System.webp'); */
   /* opacity: 0.2; */
-  text-shadow: 2px 2px #000;
+  text-shadow: 2px 2px #fff;
   font-weight: bold;
-  color: #fff;
+  color: #000;
 }
 .services .icon-boxsss:hover {
   transform: translateY(-10px);
   /* border-color: #009961; */
   /* background-color: #009961; */
-  background-image: url('../img/port.jpeg');
+  background: #fff;
+  /* background-image: url('../img/port.jpeg'); */
   /* opacity: 0.2; */
-  text-shadow: 2px 2px #000;
+  text-shadow: 2px 2px #fff;
   font-weight: bold;
-  color: #fff;
+  color: #000;
 }
 
 .services .icon-box:hover h4 a {
