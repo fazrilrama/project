@@ -34,7 +34,7 @@
       left: 0;
     }
 
-    @media screen and (min-width: 800px) {
+    @media (width > 1160px) {
       .atas {
         position: relative;
         bottom: 550px;
@@ -45,8 +45,20 @@
         text-shadow: 4px 4px #000;
       }
     }
+
+    /* @media screen and (min-width: 800px) {
+      .atas {
+        position: relative;
+        bottom: 550px;
+        color: #fff;
+      }
+
+      .text {
+        text-shadow: 4px 4px #000;
+      }
+    } */
     
-    @media screen and (min-width: 550px) {
+    /* @media screen and (min-width: 550px) {
       .atas {
         position: relative;
         bottom: 550px;
@@ -56,12 +68,17 @@
       .text {
         text-shadow: 4px 4px #000;
       }
-    }
+    } */
 
-    @media screen and (min-width: 450px) {
+
+    @media screen and (max-width: 450px) {
       .atas {
         position: relative;
-        color: #fff;
+        color: #000;
+      }
+
+      .imagex {
+        width: 100%;
       }
     }
 
@@ -95,6 +112,7 @@
           <h1 class="logo me-auto me-lg-0">
             <a href="index.html">
               <img class="img-fluid" src="./assets/img/diva.png">
+              <hr>
             </a>
           </h1>
 
@@ -409,8 +427,7 @@
             </div>
           </div> -->
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
+          <div class="col-lg-8 mt-lg-0">
             <form action="https://formsubmit.co/cs@divasinergi.com" target="_blank" method="post" role="form">
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -446,7 +463,9 @@
   <footer id="footer">
     <div class="container">
       <div class="text-center">
-        <h4><img class="img-fluid" width="100ox" height="auto" src="./assets/img/diva-icon.png">PT. DIVA SINERGI ADIPRADANA</h4> 
+        <h4>
+          <img class="img-fluid imagex" width="100ox" height="auto" src="./assets/img/diva-icon.png">PT. DIVA SINERGI ADIPRADANA
+        </h4> 
       </div>
       <hr>
       <div class="row mt-5">

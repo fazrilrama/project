@@ -132,7 +132,11 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
+}
+
+#header .logo hr {
+  border: 3px solid #fff;
 }
 
 @media (max-width: 992px) {
@@ -1005,7 +1009,7 @@ section {
   border-bottom: 1px solid #e7e7e7;
   overflow: hidden;
   background: #fff;
-  height: 140px;
+  height: 190px;
 }
 
 .clients .client-logo:hover img {
